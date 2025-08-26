@@ -25,4 +25,4 @@ df = pd.DataFrame(file_list)
 # --- Export to Excel ---
 df.to_excel(output_excel, index=False)
 
-print(f"✅ Exported {len(df)} files to {output_file}")
+print(f"✅ Exported {len(df)} files to {output_excel}")
